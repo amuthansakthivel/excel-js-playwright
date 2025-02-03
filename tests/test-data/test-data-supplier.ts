@@ -11,7 +11,7 @@ type SheetConfig = {
 const sheetConfigs: SheetConfig[] = [
     {
         sheetName: 'run-manager',
-        columns: ['id', 'execute'],
+        columns: ['scenarioId', 'execute'],
         data: {}
     },
     {
